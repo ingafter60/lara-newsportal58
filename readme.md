@@ -64,4 +64,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Sec 2 - Controller And View In Action
 
 1. Introduction to Route Part 1
+   > php artisan make:controller HelloController
+
 2. Introduction to Route Part 2
+   > php artisan make:controller AddController --resource
+
+3. Introduction to Controller
+
+4. Introduction to View
