@@ -61,6 +61,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ...
 8. Laravel Installation and Folder Structure
 
-## 2. Controller And View In Action
+## Sec 2 - Controller And View In Action
 
 1. Introduction to Route Part 1
+2. Introduction to Route Part 2

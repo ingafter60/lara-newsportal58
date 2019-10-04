@@ -27,4 +27,6 @@ Route::get('/user/{id}/{name?}', function ($id, $name="ING") {
     return 'Your id is '.$id. ' and your name is '.$name;
 })->where('id', '[0-9]+');
 
-
+// Using controller
+Route::get('/world', 'HelloController@hello');
+Route::get('/add', 'AddController@index');
