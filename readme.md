@@ -57,4 +57,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## Sec 1 - 8. Laravel Installation and Folder Structure
+## Sec 1 - Introduction
+...
+8. Laravel Installation and Folder Structure
+
+## 2. Controller And View In Action
+
+1. Introduction to Route Part 1

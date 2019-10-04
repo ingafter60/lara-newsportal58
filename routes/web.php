@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/about', function () {
+    return 'About page';
+});
+
+Route::get('/contact', function () {
+    return 'Contact page';
+});
+
+Route::get('/user/{id}/{name?}', function ($id, $name="ING") {
+    return 'Your id is '.$id. ' and your name is '.$name;
+})->where('id', '[0-9]+');
+
+
