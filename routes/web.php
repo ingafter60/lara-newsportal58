@@ -15,30 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/about', function () {
-    return 'About page';
-});
-
-Route::get('/contact', function () {
-    return 'Contact page';
-});
-
-Route::get('/user/{id}/{name?}', function ($id, $name="ING") {
-    return 'Your id is '.$id. ' and your name is '.$name;
-})->where('id', '[0-9]+');
-
-// Using controller
-Route::get('/world', 'HelloController@hello');
-Route::get('/add', 'AddController@index');
-
-// Using view only
-// Route::view('/about', 'about');
-// Route::view('/contact', 'contact');
-
-// Using Controller + View
 Route::get(
-    '/about',
-    ['uses' => 'AboutController@about', 'as' => 'about']);
-Route::get(
-    '/contact',
-    ['uses' => 'ContactController@contact', 'as' => 'contact']);
+    '/',
+    ['uses' => 'HomePageController@index', 'as' => 'home']
+);
