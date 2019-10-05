@@ -72,3 +72,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 3. Introduction to Controller
 
 4. Introduction to View
+
+5. Introduction to Blade Template
+
+## 3. Setup Front View for Project Tamplate
+
+1. Front View Setup Part 01

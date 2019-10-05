@@ -9,6 +9,6 @@ class AboutController extends Controller
     public function about(){
         $fname = 'I Nyoman';
         $lname = 'Gurnitha';
-        return view('about', compact('fname', 'lname'));
+        return view('front.layout.master', compact('fname', 'lname'));
     }
 }

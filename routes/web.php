@@ -32,13 +32,13 @@ Route::get('/world', 'HelloController@hello');
 Route::get('/add', 'AddController@index');
 
 // Using view only
-Route::view('/about', 'about');
-Route::view('/contact', 'contact');
+// Route::view('/about', 'about');
+// Route::view('/contact', 'contact');
 
 // Using Controller + View
 Route::get(
-    '/aboutctrlview',
+    '/about',
     ['uses' => 'AboutController@about', 'as' => 'about']);
 Route::get(
-    '/contactctrlview',
+    '/contact',
     ['uses' => 'ContactController@contact', 'as' => 'contact']);
